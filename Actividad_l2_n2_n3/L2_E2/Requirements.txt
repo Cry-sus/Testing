@@ -1,0 +1,14 @@
+1. Crear una página web con:
+- Estructura base (html 5)
+- Contenido para las etiquetas de texto 
+
+2. usar:
+- Header
+- H1
+- p
+- section
+- article
+- aside
+- footer
+
+3. Cada etiqueta debe ser comentada describiendo su uso 

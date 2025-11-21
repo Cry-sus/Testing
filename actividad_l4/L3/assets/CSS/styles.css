@@ -1,0 +1,31 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    text-align: justify;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: dark;
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin-inline: 25px;
+    
+}
+
+.titulodoc{
+    color: red;
+}
+
+.listalogros{
+    text-align: justify;
+    
+}
+
+.img-mcqueen {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

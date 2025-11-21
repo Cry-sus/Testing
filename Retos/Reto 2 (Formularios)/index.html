@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de prueba de HTML5</title>
+  </head>
+
+  <body>
+    <main>
+      <form action="" method="get">
+        <!-- Nombre -->
+
+        <!-- NOTA: El atributo "for" de la etiqueta
+            "label" debe tener el mismo valor 
+            que el valor del atributo "id" de 
+            la etiqueta "input" correspondiente
+            para así poder vincularlos semnatica
+            y funcionalmente. -->
+        <label for="name">Nombre:</label>
+        <!-- NOTA: el atributo "name" señala el nombre que tendrá
+            como variablede JavaScript a nivel del DOM o el
+            nombre que tendrá como variable -->
+
+        <input type="text" name="name" id="name" required autofocus />
+
+        <!-- Correo electronico -->
+        <br />
+        <br />
+        <label for="mail">Correo:</label>
+        <input type="email" name="mail" id="mail" required />
+
+        <br />
+        <br />
+        <!-- URL -->
+
+        <label for="url">URL:</label>
+        <input
+          type="url"
+          name="url"
+          id="url"
+          placeholder="Url de una página web personal"
+        />
+
+        <!-- Fecha -->
+        <br />
+        <br />
+
+        <label for="date">Fecha:</label>
+        <input type="date" name="date" id="date" />
+
+        <!-- Hora -->
+        <br />
+        <br />
+
+        <label for="time">Hora:</label>
+        <input type="time" name="time" id="time" />
+
+        <!-- Fecha y Hora -->
+        <br />
+        <br />
+
+        <label for="datetime">Fecha y Hora:</label>
+        <input type="datetime-local" name="datetime" id="datetime">
+
+        <!-- Mes -->
+        <br />
+        <br />
+
+        <label for="month">Mes:</label>
+        <input type="month" name="month" id="month" />
+
+        <!-- Semana -->
+        <br />
+        <br />
+
+        <label for="week">Semana:</label>
+        <input type="week" name="week" id="week" />
+
+        <!-- Número -->
+        <br />
+        <br />
+
+        <label for="num">Número:</label>
+        <input type="number" name="num" id="num" min="-10" max="10" />
+
+        <!-- Teléfono -->
+        <br />
+        <br />
+
+        <label for="phone">Teléfono:</label>
+        <input type="tel" name="phone" id="phone" />
+
+        <!-- Término de busqueda -->
+        <br />
+        <br />
+
+        <label for="search">Búsqueda:</label>
+        <input type="search" name="search" id="search" />
+
+        <!-- Color Favorito -->
+        <br />
+        <br />
+
+        <label for="color">Color Favorito:</label>
+        <input type="color" name="color" id="color" />
+
+        <!-- Envío -->
+        <br />
+        <br />
+        <button type="submit">Enviar :)</button>
+      </form>
+    </main>
+  </body>
+</html>

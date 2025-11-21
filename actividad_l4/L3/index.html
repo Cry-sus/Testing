@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./assets/CSS/styles.css" /> -->
+    <title>Página Rayo Mcqueen</title>
+
+    <!-- Carga de Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-info text-dark text-center">
+    <header>
+      <!-- navbar section -->
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><h1 class="text-danger fw-bold">Enciclopedia Cars</h1></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#logrosmcqueen"
+                  >Logros Mcqueen</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="https://cuevana.biz/ver-pelicula/920/cars"
+                  >Link primera pelicula de Cars</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end navbar section -->
+
+    <!-- jumbotron section -->
+    <div class="container bg-warning rounded-5 p-2 mt-3">
+      <h1 class="display-4 text-danger fw-bold">Hola Criaturita!</h1>
+      <p class="lead fw-bold">
+        Esta es la mejor página dedicada para conocer a los personajes de la
+        saga Cars
+      </p>
+      <hr class="my-4" />
+      <p>
+        Si quieres conocer que otras encilopedias tenemos haz click en "Learn
+        more"
+      </p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" role="button" id="btnlearn">Learn more</a>
+      </p>
+    </div>
+    <!-- end jumbotron section -->
+
+    <main class="container bg-warning p-2 mt-3 rounded-5">
+      <h2 class="p-2 m-2 text-center text-danger">Biografía</h2>
+      <!-- El ajuste de imagen quedó 400x225px debido a que se auto ajustó para que quedé proporcionado y armonico a la vista -->
+      <img
+        class="img-fluid"
+        style="max-width: 400px; max-height: 300px"
+        src="./assets/IMG/McQueen.jpg"
+        alt="Rayo Mcqueen"
+      />
+
+      <!-- boton de alerta -->
+      <div id="btnimgmcqueen" class="p-2"></div>
+      <button type="button" class="btn btn-primary" id="btnalert">
+        Más imágenes de Mcqueen
+      </button>
+
+      <!-- Biografía de Mcqueen -->
+      <p class="m-2 p-2 fw-bold">
+        Es un automóvil de carreras prosopopéyico protagonista de las películas
+        de Cars, así como en varios de sus cortometrajes y series animadas,
+        donde ejerce como el principal protagonista de la franquicia.
+      </p>
+    </main>
+
+    <!-- principales logros del personaje -->
+
+    <section class="container bg-warning p-2 mt-3 rounded-5">
+      <h2 id="logrosmcqueen" class="p-2 m-2 text-center text-danger">
+        Principales logros
+      </h2>
+      <ol class="p2 fw-bold">
+        <li>
+          Campeón de la Copa Pistón: Ganó el trofeo más codiciado en su primer
+          año como novato, tras empatar con el tricampeón Rey.
+        </li>
+        <li>
+          Cuatro veces ganador del premio "Rueda de Oro": Un reconocimiento al
+          mejor piloto del año.
+        </li>
+        <li>
+          Campeón de la Copa de la Vida: Logró su mayor victoria deportiva en la
+          carrera final contra su ídolo, Relámpago Azul.
+        </li>
+        <li>
+          Triunfo en el Gran Premio Mundial: Venció a los mejores corredores del
+          mundo en la tercera película.
+        </li>
+        <li>
+          Transformación de Radiador Springs: Su llegada y estancia ayudaron a
+          revitalizar el pueblo, convirtiéndolo en un destino turístico
+          próspero.
+        </li>
+      </ol>
+    </section>
+
+    <div class="container p-2 mt-3 bg-warning rounded-5">
+      <h2 class="text-danger">Sus amigos</h2>
+      <table class="table table-dark table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Parentezco</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mate</td>
+            <td>Pana</td>
+            <td>Es una camioneta remolcadora oxidadda que se volvió su mejor amigo</td>
+          </tr>
+          <tr>
+            <td>Sally</td>
+            <td>Amiga/Novia</td>
+            <td>Abogada de Radiador Springs que con el paso del tiempo se enamoró de Mcqueen</td>
+          </tr>
+          <tr>
+            <td>Hudson hornet</td>
+            <td>Amigo/Maestro</td>
+            <td>Antiguo corredor y pueblerino de Radiador Springs que con el paso del tiempo le enseñó trucos de corredor a Mcqueen</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div>
+      <div class="container p-3 bg-dark rounded-5">
+        <h2 class="text-danger">Sus amigos</h2>
+        <p class="text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+          architecto ipsam facilis a amet at, quaerat ex ab deleniti doloremque,
+          deserunt, aut sunt dignissimos distinctio placeat eveniet dolor.
+          Nostrum, neque!
+        </p>
+        
+        <button type="button" class="btn btn-primary" id="btnarriba">
+          Ir hacia arriba
+        </button>
+      </div>
+    </div>
+
+    <footer>
+      <p class="p-3">Todos los derechos reservados ;)</p>
+    </footer>
+
+    <!-- Carga de Boostrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- carga de js -->
+     <script src="./assets/js/script.js"></script>
+  </body>
+</html>
